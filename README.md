@@ -19,7 +19,8 @@ To view the Netflix clone on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/chirag23177/netflix-clone.git
+   git clone https://github.com/chirag23177/Netflix-Clone.git
+   
    ```
 2. Navigate to the project directory:
    ```bash
