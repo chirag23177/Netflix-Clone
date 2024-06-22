@@ -93,4 +93,21 @@
 .main_content h1{
     z-index: 2;
     position: relative;
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-top: 170px;
+    /* font-family: Netflix Sans, /*Helvecita Neue,Seoge UI, Roboto, , sans-serif;
+    @font-face {
+        font-family: Netflix Sans;
+        src: url(/assets/fonts/NetflixSans-Bold.otf);
+    } */
+
+}
+
+.main_content p{
+    z-index: 2;
+    position: relative;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-top: 20px;
 }
