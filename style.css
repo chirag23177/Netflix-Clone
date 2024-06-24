@@ -4,7 +4,7 @@
 }
 
 body{
-    /* background-color: black; */
+    background-color: black;
 }
 
 .logo {
@@ -150,4 +150,10 @@ body{
     font-size: 1.4rem;
     font-weight: 700;
     font-weight: bolder;
+}
+
+.line{
+    width: 100vw;
+    height: 6px;
+    background-color: rgb(54, 53, 53);
 }
