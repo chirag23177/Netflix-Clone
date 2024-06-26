@@ -278,3 +278,27 @@ body {
     align-items: center;
     gap: 15px;
 }
+
+
+.devices_img {
+    width: 100%;
+    max-width: 709.725px;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+
+.devices_vid {
+    /* position: absolute;
+    top: 6.5%;
+    left: 20.5%;
+    width: 431px;
+    height: 332px;
+    z-index: 5; */
+    position: absolute;
+    top: -7%;
+    left: 19.5%;
+    width: 60%;
+    height: 85%;
+    z-index: 5;
+}
