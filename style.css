@@ -4,7 +4,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -80,7 +80,7 @@ body{
     cursor: pointer;
 }
 
-.Sign_in:hover{
+.Sign_in:hover {
     background-color: rgb(224, 7, 7);
 }
 
@@ -122,11 +122,13 @@ body{
 .input {
     display: flex;
     flex-direction: column;
+
     /* Change the flex direction to column */
     @media (min-width: 768px) {
         flex-direction: row;
         /* Change the flex direction to row for wider screens */
     }
+
     justify-content: center;
     align-items: center;
     z-index: 5;
@@ -158,19 +160,19 @@ body{
     font-weight: bolder;
 }
 
-.get_started:hover{
+.get_started:hover {
     background-color: rgb(224, 7, 7);
 }
 
-.line{
+.line {
     height: 6px;
     background-color: rgb(54, 53, 53);
 }
 
-.first{
+.first {
     display: flex;
     flex-wrap: wrap;
-    width: 60vw;
+    width: 65vw;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -178,29 +180,31 @@ body{
     color: white;
 }
 
-.sec_content{
+.sec_content {
     flex: 1;
     min-width: 300px;
     padding: 20px;
 }
 
-.sec_content{
+.sec_content {
     margin-bottom: 20px;
 }
 
-.sec_content :nth-child(1){
+.sec_content :nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
-    /* line-height: 2;
-    align-items: center;
+    margin-bottom: 10px;
+    /* line-height: 1; */
+    /*align-items: center;
     justify-content: center; */
 }
 
-.sec_content :nth-child(2){
+.sec_content :nth-child(2) {
     font-size: 24px;
+    margin-top: 10px;
 }
 
-.sec_img{
+.sec_img {
     flex: 1;
     min-width: 300px;
     position: relative;
@@ -210,7 +214,7 @@ body{
     align-items: center;
 }
 
-.tv_img{
+.tv_img {
     width: 100%;
     max-width: 709.725px;
     height: auto;
@@ -218,11 +222,59 @@ body{
     z-index: 10;
 }
 
-.tv_vid{
+.tv_vid {
     position: absolute;
     top: 8%;
     left: 15.5%;
     width: 68%;
     height: 80%;
     z-index: 5;
+}
+
+.sec_phone{
+    position: relative;
+}
+
+.phone_img{
+    width: 701px;
+    display: block;
+    /* max-width: 709.7 25px; */
+    height: 525px;
+    position: relative;
+    z-index: 5;
+}
+
+.overlay{
+    position: absolute;
+    z-index: 100;
+    bottom: 62px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 336.53px;
+    background-color: rgba(0, 0, 0, 0.966);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    justify-content: space-between;
+    border: 3px solid white;
+}
+
+.poster{
+    width: 57.14px;
+    height: 80px;
+}
+
+.overlay_gif img{
+    /* width: 48px; */
+    height: 60px;
+}
+
+.abc{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
