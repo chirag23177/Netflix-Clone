@@ -231,11 +231,11 @@ body {
     z-index: 5;
 }
 
-.sec_phone{
+.sec_phone {
     position: relative;
 }
 
-.phone_img{
+.phone_img {
     width: 701px;
     display: block;
     /* max-width: 709.7 25px; */
@@ -244,7 +244,7 @@ body {
     z-index: 5;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     z-index: 100;
     bottom: 62px;
@@ -256,22 +256,22 @@ body {
     padding: 10px;
     display: flex;
     align-items: center;
-    gap: 10px; 
+    gap: 10px;
     justify-content: space-between;
     border: 3px solid white;
 }
 
-.poster{
+.poster {
     width: 57.14px;
     height: 80px;
 }
 
-.overlay_gif img{
+.overlay_gif img {
     /* width: 48px; */
     height: 60px;
 }
 
-.abc{
+.abc {
     display: flex;
     justify-items: center;
     justify-content: center;
@@ -289,12 +289,6 @@ body {
 }
 
 .devices_vid {
-    /* position: absolute;
-    top: 6.5%;
-    left: 20.5%;
-    width: 431px;
-    height: 332px;
-    z-index: 5; */
     position: absolute;
     top: -7%;
     left: 19.5%;
