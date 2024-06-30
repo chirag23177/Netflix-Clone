@@ -347,10 +347,34 @@ footer{
     color: white;
 }
 
-.footer{
-    display: flex;
-    justify-content: space-between;
+footer{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
     padding: 20px;
     padding-top: 50px;
+    max-width: 64vw;
+    margin: auto;
+    font-weight: 280;
+    font-size: 0.88em;
+    line-height: 2.2;
+    /* text-decoration: underline; */
 }
 
+.parts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+footer ul li{
+    list-style: none;
+}
