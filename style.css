@@ -348,18 +348,14 @@ footer{
 }
 
 footer{
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
     padding: 20px;
     padding-top: 50px;
     max-width: 64vw;
     margin: auto;
     font-weight: 280;
-    font-size: 0.88em;
+    font-size: 0.95em;
     line-height: 2.2;
-    /* text-decoration: underline; */
+    padding-bottom: 50px;
 }
 
 .parts{
@@ -369,6 +365,7 @@ footer{
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding-bottom: 13px;
 }
 
 .underline{
@@ -377,4 +374,12 @@ footer{
 
 footer ul li{
     list-style: none;
+}
+
+.call{
+    padding-bottom: 10px;
+}
+
+.lang_button{
+    padding-bottom: 13px;
 }
