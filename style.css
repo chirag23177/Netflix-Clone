@@ -58,7 +58,7 @@ body {
 }
 
 .Language {
-    padding: 6px 36px;
+    padding: 6px 16px;
     background-color: rgba(0, 0, 0, 0.405);
     color: rgb(255, 255, 255);
     border: 0.01px solid rgba(255, 255, 255, 0.523);
@@ -66,6 +66,8 @@ body {
     font-size: 0.9rem;
     font-weight: 700;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
 .Sign_in {
